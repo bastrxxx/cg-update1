@@ -282,12 +282,13 @@ main {
 .logotop {
   position: absolute;
   z-index: 11;
-  left: 1rem;
   top: 20px;
   list-style: none;
   display: flex;
   align-items: center;
   grid-gap: 20px;
+  justify-content: space-between;
+  width: 100%;
 }
 .logotop li .home {
   font-size: 3rem;
