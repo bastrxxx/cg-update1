@@ -555,6 +555,12 @@ main {
   display: block;
   margin: 0 auto;
 }
+.maincontent .content-main .fullcontent nav {
+  border-bottom: 1px solid #fff;
+}
+.maincontent .content-main .fullcontent nav .nav {
+  border-bottom: 1px solid #7b8a71;
+}
 .maincontent .content-main .fullcontent nav .nav-link {
   font-size: 27px;
   color: #224643;
@@ -581,6 +587,7 @@ main {
 }
 .maincontent .content-main .fullcontent .tab-content .tab-pane ul {
   list-style: none;
+  padding-left: 0;
 }
 .maincontent .content-main .fullcontent .tab-content .tab-pane ul li {
   font-size: 22px;
@@ -595,7 +602,7 @@ main {
   width: 54px;
   height: 54px;
   z-index: 100;
-  right: 10vw;
+  right: 12%;
   top: 2rem;
   opacity: 1;
 }
