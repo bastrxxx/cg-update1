@@ -383,7 +383,6 @@ main {
   margin-top: 0;
 }
 .header .chuoisukien .container ul li a.btn.disabled {
-  filter: grayscale(100);
   cursor: default;
   opacity: 1;
 }
@@ -535,7 +534,6 @@ main {
   max-width: 100%;
 }
 .leftmenu ul li a.nav-link.disabled {
-  filter: grayscale(100);
   opacity: 1;
 }
 

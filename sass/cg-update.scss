@@ -64,7 +64,7 @@ main {position: relative;height: 100vh;}
           }
           &:nth-child(2){margin-top: 30px;}
           &:nth-child(3){margin-top: 0;}
-          a.btn.disabled{filter: grayscale(100);cursor: default;opacity: 1;}        }
+          a.btn.disabled{cursor: default;opacity: 1;}        }
       }
     }
   }
@@ -122,7 +122,7 @@ main {position: relative;height: 100vh;}
           img.d1{display: none;max-width: 100%;}
           img.d2{display: block;max-width: 100%;}
         }
-        a.nav-link.disabled{filter: grayscale(100);opacity:1;}
+        a.nav-link.disabled{opacity:1;}
       }
     } 
 }
