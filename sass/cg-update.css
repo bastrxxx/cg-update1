@@ -384,7 +384,7 @@ main {
 .header .chuoisukien .container ul li a.btn.disabled {
   filter: grayscale(100);
   cursor: default;
-  opacity: 0.7;
+  opacity: 1;
 }
 
 /*==CHUYENTRANG=*/
@@ -535,7 +535,7 @@ main {
 }
 .leftmenu ul li a.nav-link.disabled {
   filter: grayscale(100);
-  opacity: 0.7;
+  opacity: 1;
 }
 
 .maincontent {
@@ -578,6 +578,34 @@ main {
 }
 .maincontent .content-main .fullcontent .tab-content .tab-pane ol li {
   font-size: 22px;
+}
+.maincontent .content-main .fullcontent .tab-content .tab-pane ul {
+  list-style: none;
+}
+.maincontent .content-main .fullcontent .tab-content .tab-pane ul li {
+  font-size: 22px;
+}
+
+.modal-dialog .modal-content {
+  background-color: transparent;
+  border: none;
+}
+.modal-dialog .modal-content .btn-close {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  z-index: 100;
+  right: 10vw;
+  top: 2rem;
+  opacity: 1;
+}
+.modal-dialog .modal-content .btn-close img {
+  max-width: 100%;
+}
+.modal-dialog .modal-content .modal-body img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
 }
 
 /*==FOOTER=*/
