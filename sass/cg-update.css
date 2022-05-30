@@ -381,6 +381,11 @@ main {
 .header .chuoisukien .container ul li:nth-child(3) {
   margin-top: 0;
 }
+.header .chuoisukien .container ul li a.btn.disabled {
+  filter: grayscale(100);
+  cursor: default;
+  opacity: 0.7;
+}
 
 /*==CHUYENTRANG=*/
 #list-example {
@@ -527,6 +532,10 @@ main {
 .leftmenu ul li a.nav-link.active img.d2 {
   display: block;
   max-width: 100%;
+}
+.leftmenu ul li a.nav-link.disabled {
+  filter: grayscale(100);
+  opacity: 0.7;
 }
 
 .maincontent {
